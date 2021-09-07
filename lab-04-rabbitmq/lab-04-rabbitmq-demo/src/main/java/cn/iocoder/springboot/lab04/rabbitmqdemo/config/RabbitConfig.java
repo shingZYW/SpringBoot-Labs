@@ -33,7 +33,7 @@ public class RabbitConfig {
                     false);  // exclusive: 是否排它
         }
 
-        // 创建 Binding
+        // 创建 Binding (Exchange和Exchange、Queue之间的虚拟连接， Binding中可以包含Routing key或者参数)
         // Exchange：Demo01Message.EXCHANGE
         // Routing key：Demo01Message.ROUTING_KEY
         // Queue：Demo01Message.QUEUE
